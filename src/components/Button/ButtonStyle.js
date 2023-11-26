@@ -8,6 +8,7 @@ export const ButtonStyled = styled('button')`
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   text-align: center;
   display: inline-block;
+  align-items: center;
   color: #fff;
   border: 0;
   text-decoration: none;
@@ -27,4 +28,8 @@ export const ButtonStyled = styled('button')`
       background-color: #303f9f;
     }
   }
+`;
+export const BtnContainer = styled('div')`
+  text-align: center;
+  margin: 20px;
 `;
