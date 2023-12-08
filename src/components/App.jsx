@@ -20,7 +20,6 @@ export const App = () => {
     };
     fetchFilms();
   }, []);
-  console.log(films);
   return (
     <>
       <h1>Trending today</h1>

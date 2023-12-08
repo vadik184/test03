@@ -6,3 +6,9 @@ export const getTrending = async () => {
   const { data } = await axios.get(`/trending/all/day?api_key=${apiKey}`);
   return data;
 };
+export const searchFilm = async query => {
+  const { data } = await axios.get(
+    `/search/movie?api_key=${apiKey}&language=en-US&query=${query}`
+  );
+  return data;
+};

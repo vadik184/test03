@@ -9,6 +9,7 @@ export const List = styled('ul')`
 `;
 export const Item = styled('li')`
   width: 250px;
+  background-color
 `;
 
 export const Link = styled('a')`
